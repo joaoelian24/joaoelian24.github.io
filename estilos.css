@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+header nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: black;
+    padding: 10px 20px;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.titulo {
+    font-family: fantasy;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    color: seagreen;
+    text-shadow: 5px 5px 5px #3579AA;
+}
+
+section {
+    font-family: cursive;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen {
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.video {
+    display: block;
+    margin-left: 300px;
+}
+
+.titulopg2 {
+    background-color: burlywood;
+    width: 400px;
+    display: block;
+    margin-left: 500px;
+    border: 2px solid black;
+}
+
+form {
+    margin: 50px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    font-family: cursive;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(90, 89, 89);
+    font-family: cursive;
+}
+
+input:focus {
+    border: 1px solid #219166;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 140px;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background-color: #044E75;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #315E76;
+    cursor: pointer;
+}
